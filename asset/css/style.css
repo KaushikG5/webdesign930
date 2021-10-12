@@ -1,0 +1,148 @@
+*{
+	
+	box-sizing:border-box;
+	font-family: 'Roboto Slab', serif;
+}
+
+.cname{
+	background-color:#F7F4BE;
+	height:220px;
+	font-size:50px;
+	text-align:center;
+	padding-top:70px;
+	font-style:bold;
+	color:#AE5B0B;
+	
+}
+
+.menu{
+	
+	background-color:#AE5B0B;
+	height:50px;
+	margin-top:5px;
+	text-align:center;
+	padding-top:10px;
+	
+}
+
+.menu a{
+	text-decoration:none;
+	color:#F7F4BE;
+	font-size:20px;
+	font-weight:bold;
+	display:block;
+	
+}
+
+.banner{
+	
+	margin-top:8px;
+}
+
+.section{
+	background-color:#AE5B0B;
+	height:120px;
+	color:#F7F4BE;
+	font-size:25px;
+	font-weight:bold;
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+	margin-top:8px;
+}
+
+.menu_item{
+	/* border-style:solid; */
+	margin-top:8px;
+	height:380px;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	color:#AE5B0B;
+	background-color:#F7F4BE;
+	
+	box-shadow:0px 0px 5px 1px #BEBDBB;
+	transition-property:transform;
+	transition-duration:1s;
+}
+.menu_item:hover{
+	transform:rotateY(100deg)
+}
+
+h1{
+	font-size:20px;
+}
+
+p{
+	font-size:15px;
+	padding-top:0px;
+	
+}
+
+button{
+	border:0px;
+	background-color:#AE5B0B;
+	color:#F7F4BE;
+	font-size:15px;
+}
+
+
+.footer{
+	background-color:#F7F4BE;
+	height:350px;
+	color:#AE5B0B;
+	font-size:15px;
+	font-weight:bold;
+	padding-top:100px;
+	text-align:center;
+	
+	margin-top:30px;
+}
+
+h2{
+	text-align:center;
+	font-weight:bold;
+	font-size:25px;
+}
+
+#para, .content{
+	border-style:solid;
+	padding:10px 10px 10px 10px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+    	
+}
+
+h4{
+	color:red;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.section{
+    margin-top: 8px;
+    background-color:#AE5B0B;
+    height: 50px;
+    color: #F7F4BE;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-left: 40px;
+	box-shadow: 0px 0px 3px 0.8px grey;
+}
+	
+.contact{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    height: 300px;
+    box-shadow: 0px 0px 3px 0.8px grey;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#F7F4BE;
+}
